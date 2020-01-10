@@ -68,3 +68,7 @@ result4 = str4.split('/')
 print("result4: ", result4) # result4:  ['', 'Company', 'fadf7db7db670dd0fa2dfa00227bf8cd']
 print(result4[1]) # Company
 print(result4[2]) # fadf7db7db670dd0fa2dfa00227bf8cd
+
+
+str5 = 'P00000006       date'
+print(str5.split())
