@@ -24,7 +24,9 @@ print(list)
 print(list[0])
 print(arr)
 print(arr[1])
-
+print("----打印list-----")
+for value in list:
+    print(value)
 # 2. list转换为str
 # 当list中存放的数据是字符串时，一般是通过str中的join函数来进行转换
 list = ['a','b','c','d']
